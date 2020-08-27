@@ -1,0 +1,123 @@
+/*样式初始化*/
+/*若前端开发人员还有需要的,自行添加*/
+body, h1, h2, div, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+body, button, input, select, textarea {
+  font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+address, cite, dfn, em, var, th, i {
+  font-style: normal;
+}
+
+code, kbd, pre, samp {
+  font-family: couriernew, courier, monospace;
+}
+
+small {
+  font-size: 12px;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+legend {
+  color: #000;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+button, input, select, textarea {
+  font-size: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-color: #ddd;
+}
+
+/*自定义页面所需样式*/
+.text-over-hidden {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-over-hidden2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.tx-right {
+  text-align: right;
+}
+
+.tx-center {
+  text-align: center;
+}
+
+.tx-left {
+  text-align: left;
+}
+
+.fn-right {
+  float: right;
+}
+
+.fn-left {
+  float: left;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.pd-10 {
+  padding: 10px 0;
+}
+
+.tx-red{
+  color: #e01717;
+}
+.tx-green{
+  color: #19b119;
+}
+.tx-orange{
+  color: #fb6501;
+}
+.tx-bold{
+  font-weight: 700;
+}

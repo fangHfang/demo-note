@@ -1,0 +1,174 @@
+.order-content{
+  background-color: #fff;
+}
+.wrapper{
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+.order-info{
+  .panel{
+    padding: 25px 25px 15px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-top: 2px solid #ddd;
+    .panel-title{
+      position: relative;
+      margin-bottom: 25px;
+      padding-left: 63px;
+      background: #f8f8f8;
+      font-size: 20px;
+      line-height: 43px;
+      zoom: 1;
+      i{
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        width: 43px;
+        height: 43px;
+        background: #fa0;
+        &:before{
+          position: absolute;
+          top: 7px;
+          left: 6px;
+          content: '';
+          width: 30px;
+          height: 30px;
+          background: url("/static/all.png") no-repeat;
+        }
+        &.order:before{top:8px;left:7px;height:32px;background-position: -195px -182px;}
+        &.chanpin{
+          background: #09c;
+          &:before{height:29px;background-position: -228px -182px;}
+        }
+        &.renshu,
+        &.mingdan{
+          background: #f39c12;
+          &:before{top:8px;height:32px;background: url("/static/renshu.png") no-repeat;}
+        }
+        &.ziyuan{
+          background: #8e44ad;
+          &:before{top:6px;height:32px;background: url("/static/ziyuan.png") no-repeat;}
+        }
+        &.address{
+          background: #F6442C;
+          &:before{top:6px;height:32px;background: url("/static/address.png") no-repeat;}
+        }
+        &.user{
+          background: #53a93f;
+          &:before{top:6px;left:7px;height:33px;background-position: -161px -178px;}
+        }
+        &.guwen{
+          background: #8c44a2;
+          &:before{background-position: -127px -183px;}
+        }
+        &.baoxian{
+          background: #50b674;
+          &:before{top:8px;left:7px;height:32px;background: url("/static/baoxian.png") no-repeat;}
+        }
+      }
+      .add-box{
+        position: absolute;
+        top:0;
+        right: 0;
+        .add{
+          display: inline-block;
+          font-size: 15px;padding-right: 15px;color: #06c;cursor: pointer
+        }
+      }
+    }
+    .panel-content{
+      .panel-group{
+        position: relative;
+        margin-bottom: 15px;
+        line-height: 32px;
+        color: #333;
+        font-size: 14px;
+        &:before,
+        &:after{
+          content: "\0020";
+          display: block;
+          height: 0;
+          overflow: hidden;
+        }
+        &:after{
+          clear: both;
+        }
+        >label{
+          margin-right: 5px;
+          line-height: 40px;
+          float: left;
+          width: 90px;
+          text-align: right;
+        }
+        >span{
+          display: block;
+          margin-left: 95px;
+          line-height: 40px;
+          > i{
+            color: #06c;cursor: pointer;margin-right: 10px;
+          }
+          strong.price{
+            color: #ff7800;
+            margin-left:2px;
+            font-weight: 500;
+            //font-size: 16px
+          }
+          .price-txt{
+            width: 60px;
+            .el-input__inner{
+              border-radius: 0;
+              height: 30px;
+              line-height: 30px;
+              margin-left:5px;
+            }
+            +span{
+              margin-left:10px;
+            }
+          }
+        }
+        >.el-input {
+          width: 220px;
+          .el-input__inner{
+            border-radius: 0;
+          }
+        }
+        >.el-textarea{
+          width: 715px;
+          .el-textarea__inner{
+            border-radius: 0;
+          }
+        }
+        >.el-date-editor{
+          border-radius: 0;
+        }
+      }
+      .el-table__body{
+        input{
+          border-radius: 0;
+          height: 32px;
+          line-height: 32px;
+        }
+      }
+    }
+    &.panel-btn{
+      text-align: center;
+      background: #fffceb;
+      border: 1px solid #ffdbb2;
+      .el-button{
+        border:none;
+        display: inline-block;
+        cursor: pointer;
+        background-color: #ff9419;
+        color: #fff;
+        font-size: 16px;
+        &:hover{
+          background: #f50;
+        }
+      }
+    }
+  }
+}

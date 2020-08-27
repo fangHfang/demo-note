@@ -1,0 +1,90 @@
+[
+  {
+    "airportCode": "PEK",
+    "cityInfo": "BJ-北京-PEK",
+    "cityName": "北京",
+    "airportName": "首都",
+    "status": 1,
+    "lat": 40.0881944004,
+    "lng": 116.6033998315
+  },
+  {
+    "airportCode": "YIE",
+    "cityInfo": "AES-阿尔山-YIE",
+    "cityName": "阿尔山市",
+    "airportName": "伊尔施",
+    "status": 0,
+    "lat": 47.3155940318,
+    "lng": 119.9293992017
+  },
+  {
+    "airportCode": "AKU",
+    "cityInfo": "AKS-阿克苏-AKU",
+    "cityName": "阿克苏地区",
+    "airportName": "阿克苏",
+    "status": 0,
+    "lat": 41.2657516858,
+    "lng": 80.3049157658
+  },
+  {
+    "airportCode": "NGQ",
+    "cityInfo": "AL-阿里-NGQ",
+    "cityName": "阿里地区",
+    "airportName": "昆莎",
+    "status": 0,
+    "lat": 32.1081287447,
+    "lng": 80.0637591367
+  },
+  {
+    "airportCode": "ALA",
+    "cityInfo": "ALMT-阿尔玛塔-ALA",
+    "cityName": "阿拉木图",
+    "airportName": "阿尔玛塔",
+    "status": 0
+  },
+  {
+    "airportCode": "RHT",
+    "cityInfo": "ALSYQ-阿拉善右旗-RHT",
+    "cityName": "阿拉善右旗",
+    "airportName": "阿拉善右旗",
+    "status": 0,
+    "lat": 39.2338594871,
+    "lng": 101.449757309
+  },
+  {
+    "airportCode": "YIW",
+    "cityInfo": "YW-义乌-YIW",
+    "cityName": "义乌市",
+    "airportName": "义乌",
+    "status": 0,
+    "lat": 29.3464578386,
+    "lng": 120.0389750211
+  },
+  {
+    "airportCode": "ZQZ",
+    "cityInfo": "ZJK-张家口-ZQZ",
+    "cityName": "张家口",
+    "airportName": "张家口",
+    "status": 0,
+    "lat": 40.7461174707,
+    "lng": 114.9436254875
+  },
+  {
+    "airportCode": "HSN",
+    "cityInfo": "ZS-舟山-HSN",
+    "cityName": "舟山",
+    "airportName": "普陀山",
+    "status": 0,
+    "lat": 29.9396135515,
+    "lng": 122.3683649114
+  },
+  {
+    "airportCode": "CGO",
+    "cityInfo": "ZZ-郑州-CGO",
+    "cityName": "郑州",
+    "airportName": "新郑",
+    "status": 1,
+    "lat": 34.5308189222,
+    "lng": 113.8526878594
+  }
+]
